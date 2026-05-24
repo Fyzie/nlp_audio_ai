@@ -1,4 +1,4 @@
-### Package Installation
+## Package Installation
 
 ``` 
 pip install llama-index-llms-google-genai llama-index-embeddings-google-genai llama-index llama-index-vector-stores-qdrant llama-index-llms-gemini llama-index-embeddings-gemini qdrant-client streamlit spacy
@@ -36,3 +36,12 @@ Verify:
 ```
 echo %GEMINI_API_KEY%
 ```
+
+## Data Ingestion
+Verify vector data inside Qdrant dashboard   
+1. On web browser,
+```
+http://localhost:6333/dashboard
+```
+2. Go to `Collections`
+
