@@ -45,3 +45,16 @@ http://localhost:6333/dashboard
 ```
 2. Go to `Collections`
 
+## Execution Order
+
+1. `config.py`   
+Initializes the modern Gemini models (gemini-2.5-flash and gemini-embedding-2) and establishes the connection to the local Qdrant Vector database.
+
+2. `ingest.py`   
+Reads raw technical documents from the local data folder, chunks the text into overlapping 512-token windows using a SentenceSplitter, generates vectors, and upserts them into the Qdrant database.
+
+3. `query.py`   
+Instantiates the retrieval engine from the existing vector store and runs automated bilingual terminal tests (English and Bahasa Melayu) to verify query accuracy and source match retrieval.
+
+4. `app.py`   
+Launches the production-ready bilingual Streamlit user interface featuring interactive language-switching toggles, metadata confidence scores, and raw reference document expanders for the end-user.   
