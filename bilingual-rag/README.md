@@ -37,6 +37,27 @@ Verify:
 echo %GEMINI_API_KEY%
 ```
 
+### Other way to set the API Key:   
+Step 1: Install python-dotenv   
+Run this in your terminal to install the standard management package:   
+
+```
+pip install python-dotenv
+```
+Step 2: Create a .env file   
+Inside the root directory, create a file named exactly .env (make sure it has no .txt extension) and add your api key:   
+
+```
+GEMINI_API_KEY=your-api-key
+```
+Step 3: Update config.py to auto-load the file   
+Add the load sequence to script:   
+
+```
+from dotenv import load_dotenv
+load_dotenv()
+```
+
 ## Data Ingestion
 Verify vector data inside Qdrant dashboard   
 1. On web browser,
