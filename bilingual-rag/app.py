@@ -2,6 +2,7 @@ import streamlit as st
 import os
 from llama_index.core import StorageContext, VectorStoreIndex
 
+# load gemini key from .env directly or from config.py(gemini key checking have to be after import config)
 from dotenv import load_dotenv
 load_dotenv()
 
