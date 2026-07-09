@@ -1,4 +1,8 @@
 import os
+
+from dotenv import load_dotenv
+load_dotenv()
+
 from qdrant_client import QdrantClient
 from llama_index.core import Settings
 from llama_index.llms.google_genai import GoogleGenAI
