@@ -4,7 +4,8 @@
 pip install llama-index-llms-google-genai llama-index-embeddings-google-genai llama-index llama-index-vector-stores-qdrant llama-index-llms-gemini llama-index-embeddings-gemini llama-index-readers-web qdrant-client streamlit spacy pypdf docx2txt openpyxl
 ```
 
-#### Create Docker for Database Container and Boot It
+### Create Docker for Database Container and Boot It
+This only if want to run on Server Mode   
 After docker-compose.yaml created, boot:   
 ```
 docker-compose up -d
@@ -21,7 +22,7 @@ docker ps -a
 ```
 If the status is up w.r.t. the ports, then GOOD
 
-Get Gemini API Key
+### Get Gemini API Key
 1. Go to Google AI Studio and log in
 2. Go to `Get API Key`
 3. Click `Create API Key`
