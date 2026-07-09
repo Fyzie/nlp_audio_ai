@@ -2,6 +2,9 @@ import streamlit as st
 import os
 from llama_index.core import StorageContext, VectorStoreIndex
 
+from dotenv import load_dotenv
+load_dotenv()
+
 st.set_page_config(page_title="Bilingual Assistant", layout="wide", page_icon="")
 
 @st.cache_resource
