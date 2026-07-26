@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sentence-transformers
+qdrant-client
+mlflow
+pytest
+evidently>=0.4.0
+pandas

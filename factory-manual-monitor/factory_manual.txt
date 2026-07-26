@@ -1,0 +1,11 @@
+Pump 204 requires bearing lubrication every 400 operating hours using synthetic lithium grease (grade NLGI 2).
+Inspect the primary intake valve on Pump 204 weekly for cavitation damage and seal integrity.
+Conveyor Belt B tension must be maintained at exactly 50 lbs to prevent slippage. Tension adjustments should only be performed while the main motor is locked out and tagged out.
+Conveyor Belt A handles heavy raw materials; check the vulcanized splices every 30 days for fraying or structural weakness.
+If the hydraulic press temperature exceeds 90C, immediately engage the emergency cooling system and halt the feed mechanism.
+The hydraulic press requires hydraulic fluid replacement every 12 months or when viscosity drops below 40 cSt.
+Air compressor units C-1 and C-2 must be drained of condensation daily to prevent internal rusting and pressure fluctuations.
+For all electrical control panels, perform thermal imaging inspections quarterly to identify overheating contactors or loose terminal blocks.
+In the event of a total power failure, the backup diesel generator will automatically engage within 10 seconds. Do not manually restart high-load machinery until stable grid power is confirmed by the control room.
+All operators must wear Class 2 arc flash suits when servicing the main switchgear in Sector 4.
+Robotic Welding Arm R-7 requires daily calibration of its optical sensors using the standard calibration grid.
