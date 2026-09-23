@@ -1,7 +1,7 @@
 ### Step-by-Step Guide
 
-1. **Open your project folder in VS Code:** Setup.
-Open VS Code, go to **File > Open Folder...**, and select the directory where you saved both `app.py` and `simulate_traffic.py`.
+1. **Open project folder in VS Code:** Setup.
+Open VS Code, go to **File > Open Folder...**, and select the directory where both `app.py` and `simulate_traffic.py` are saved.
 
 
 2. **Open the integrated terminal:**
