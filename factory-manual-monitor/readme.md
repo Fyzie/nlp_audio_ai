@@ -10,6 +10,10 @@ New terminal on VSCode.
 
 ```
 uvicorn app:app --reload
+```
+OR
+```
+uvicorn {script_name}:app --reload --port 8000
 
 ```
 
